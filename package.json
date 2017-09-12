@@ -1,0 +1,40 @@
+{
+  "name": "js-learn",
+  "version": "1.0.0",
+  "description": "exercises of js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server  --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littleee/js-learn.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littleee/js-learn/issues"
+  },
+  "homepage": "https://github.com/littleee/js-learn#readme",
+  "devDependencies": {
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {
+    "webpack": "^3.5.6",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
